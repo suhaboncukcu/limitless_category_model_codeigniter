@@ -167,9 +167,6 @@ class Category_model extends CI_Model {
             $this->printChildren($category->id);
             echo '</li>';
           }
-          
         }
     }
-
-
 }
